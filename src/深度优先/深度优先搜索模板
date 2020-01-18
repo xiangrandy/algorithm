@@ -1,0 +1,10 @@
+·主程序：
+·dfs(初始状态)
+
+1·dfs(状态) [3] 
+–if 状态 == 目标状态  then
+  ·dosomething
+–else
+  ·for 每个新状态
+     –if 新状态合法
+       »dfs(新状态)
