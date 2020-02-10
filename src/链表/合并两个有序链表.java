@@ -3,10 +3,6 @@ package 链表;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
- * Copyright (c) Huawei Technologies Co., Ltd. 2015-2020. All rights reserved.
- */
-
 /**
  * TODO 在此添加类型注释
  * 
