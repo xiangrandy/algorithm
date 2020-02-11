@@ -1,7 +1,3 @@
-/*
- * Copyright (c) Huawei Technologies Co., Ltd. 2015-2020. All rights reserved.
- */
-
 package 数组;
 
 /**
@@ -14,7 +10,7 @@ public class 删除排序数组中的重复项 {
 
     public static void main(String[] args) {
         删除排序数组中的重复项 s = new 删除排序数组中的重复项();
-        int[] nums = { 1, 1 };
+        int[] nums = { 1, 2, 2 };
         int length = s.removeDuplicates(nums);
         System.out.println(length);
     }
@@ -27,25 +23,14 @@ public class 删除排序数组中的重复项 {
             return 1;
         }
         int index = 0;
-        for (int i = 0; i < nums.length; i++) {
-            if (i < nums.length - 1) {
-                if (nums[i] != nums[i + 1]) {
-                    nums[index] = nums[i];
-                    index++;
-                }
-            } else {
-                if (nums[i - 1] != nums[i]) {
-                    nums[index] = nums[i];
-                    index++;
-                } else {
-                    if (index == 0) {
-                        index++;
-                    }
-                }
-                break;
+        for (int i = 1; i < nums.length; i++) {
+            // 如果nums[i]不等于nums[index],则将nums[index+1]写为nums[i]，index++
+            if (nums[i] != nums[index]) {
+                nums[index + 1] = nums[i];
+                index++;
             }
         }
-        return index;
+        return index + 1;
     }
 
 }
