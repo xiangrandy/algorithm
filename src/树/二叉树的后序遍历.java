@@ -1,17 +1,8 @@
-/*
- * Copyright (c) Huawei Technologies Co., Ltd. 2015-2020. All rights reserved.
- */
 package 树;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * TODO 在此添加类型注释
- * 
- * @author x00418543
- * @since 2020年1月17日
- */
 public class 二叉树的后序遍历 {
 
     private List<Integer> l = new ArrayList<>();

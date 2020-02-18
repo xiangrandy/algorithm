@@ -1,4 +1,4 @@
-package 二分查找;
+package 查找;
 /*
  * Copyright (c) Huawei Technologies Co., Ltd. 2015-2020. All rights reserved.
  */
