@@ -1,9 +1,9 @@
 package 查找;
 
-public class 第一个错误的版本 {
+public class 第一个错误的版本278 {
 
     public static void main(String[] args) {
-        第一个错误的版本 d = new 第一个错误的版本();
+        第一个错误的版本278 d = new 第一个错误的版本278();
         int n = 111;
         System.out.println(d.firstBadVersion(n));
     }
