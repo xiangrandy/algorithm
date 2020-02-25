@@ -1,17 +1,8 @@
 package 多线程;
+
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.IntConsumer;
 
-/*
- * Copyright (c) Huawei Technologies Co., Ltd. 2015-2020. All rights reserved.
- */
-
-/**
- * TODO 在此添加类型注释
- * 
- * @author x00418543
- * @since 2020年1月10日
- */
 public class FizzBuzz {
 
     private int n;
